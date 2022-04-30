@@ -2,7 +2,7 @@
 LETTER AND SPACE COUNTER
 This program takes a word, prase or sentence from users and outputs the number of vowels, consonants and spaces.
 '''
-'''
+
 print("-" * 60)
 print("LETTER AND SPACE COUNTER")
 print("-" * 60)
@@ -23,8 +23,10 @@ for letter in word:
         pass 
 
 print(f'There are:\n{vowel_count} vowels\n{cons_count} consonants\n{space_count} spaces')
-'''
 
+'''
+A gender counter that counts the number of males and females input
+'''
 print("-" * 60)
 print("GENDER COUNTER")
 print("-" * 60)
@@ -44,7 +46,7 @@ while n <= num:
         female += 1
     else:
         print("INVALID!! Please enter M for male or F for female")
-        n -= 1
+        n -= 1 #incase of a wrong input, the count is reversed
     n += 1
 print(male, female)
 
